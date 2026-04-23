@@ -8,7 +8,7 @@
     "build": "pnpm run typecheck && pnpm -r --if-present run build",
     "typecheck:libs": "tsc --build",
     "typecheck": "pnpm run typecheck:libs && pnpm -r --filter \"./artifacts/**\" --filter \"./scripts\" --if-present run typecheck",
-    "eas-build-pre-install": "corepack enable"
+    "eas-build-pre-install": "corepack enable && corepack prepare pnpm@latest --activate"
   },
   "private": true,
   "devDependencies": {
