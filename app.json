@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "7_habit",
-    "slug": "7_habit",
+    "name": "7-habit",
+    "slug": "7-habit",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,11 +15,11 @@
       "**/*"
     ],
     "ios": {
-      "bundleIdentifier": "com.masha.7_habit",
+      "bundleIdentifier": "com.masha.7-habit",
       "buildNumber": "1.0.0"
     },
     "android": {
-      "package": "com.masha.7_habit",
+      "package": "com.masha.7-habit",
       "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
