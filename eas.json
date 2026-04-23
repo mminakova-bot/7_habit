@@ -1,6 +1,6 @@
 {
   "cli": {
-    "version": ">= 7.0.0",
+    "version": " ">= 7.0.0"",
     "appVersionSource": "remote"
   },
   "build": {
@@ -8,6 +8,9 @@
       "android": {
         "buildType": "apk",
         "image": "ubuntu-22.04-jdk-17-ndk-r26b"
+      },
+      "env": {
+        "JAVA_HOME": "/usr/lib/jvm/java-17-openjdk-amd64"
       },
       "developmentClient": false
     },
