@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "Habit Tracker",
-    "slug": "habit-tracker",
+    "name": "7_habit",
+    "slug": "7_habit",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,11 +15,11 @@
       "**/*"
     ],
     "ios": {
-      "bundleIdentifier": "com.yourname.habittracker",
+      "bundleIdentifier": "com.masha.7_habit",
       "buildNumber": "1.0.0"
     },
     "android": {
-      "package": "com.yourname.habittracker",
+      "package": "com.masha.7_habit",
       "versionCode": 1,
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
@@ -31,7 +31,7 @@
     },
     "extra": {
       "eas": {
-        "projectId": "ВАШ_EAS_PROJECT_ID"
+        "projectId": "364adb19-790a-425e-953b-3622f350ae51"
       }
     }
   }
